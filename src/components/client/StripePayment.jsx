@@ -55,7 +55,7 @@ const payNow = async (token) => { console.log(JSON.stringify(token))
   data: {
   amount: product.price * 100,
   token,
-  userId: user.iduser,
+  userId: user.id,
   cartItems : JSON.stringify(cartItems)
   },
   });
